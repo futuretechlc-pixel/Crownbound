@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "rotation": "daily",
+  "challenge_templates": [
+    {
+      "id": "no_dash",
+      "name": "No Dash Allowed",
+      "rule": "dash_disabled",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "scarce_walls",
+      "name": "Stone Shortage",
+      "rule": "starting_walls_2",
+      "difficulty": "Normal"
+    },
+    {
+      "id": "low_energy",
+      "name": "Drained Relic",
+      "rule": "starting_energy_1",
+      "difficulty": "Hard"
+    },
+    {
+      "id": "rush",
+      "name": "Crown Rush",
+      "rule": "move_limit_18",
+      "difficulty": "Expert"
+    }
+  ]
+}
