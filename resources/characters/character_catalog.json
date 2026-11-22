@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "flare",
+      "name": "Flare",
+      "title": "The Ember Knight",
+      "color": "#ff5364",
+      "role": "disruptor",
+      "ability": {
+        "id": "break_wall",
+        "name": "Break Wall",
+        "description": "Remove one adjacent enemy barrier.",
+        "cost": 1,
+        "cooldown_turns": 3
+      }
+    },
+    {
+      "id": "frost",
+      "name": "Frost",
+      "title": "The Glacier Mage",
+      "color": "#48a7ff",
+      "role": "control",
+      "ability": {
+        "id": "freeze",
+        "name": "Frost Lock",
+        "description": "Skip the next rival's movement turn.",
+        "cost": 2,
+        "cooldown_turns": 4
+      }
+    },
+    {
+      "id": "vine",
+      "name": "Vine",
+      "title": "The Verdant Warden",
+      "color": "#59d68a",
+      "role": "mobility",
+      "ability": {
+        "id": "second_step",
+        "name": "Quick Route",
+        "description": "Move one extra legal cell this turn.",
+        "cost": 1,
+        "cooldown_turns": 3
+      }
+    },
+    {
+      "id": "phantom",
+      "name": "Phantom",
+      "title": "The Veil Walker",
+      "color": "#a78bfa",
+      "role": "trickster",
+      "ability": {
+        "id": "phase_step",
+        "name": "Phase Step",
+        "description": "Make one move through a single blocked edge.",
+        "cost": 2,
+        "cooldown_turns": 4
+      }
+    }
+  ]
+}
